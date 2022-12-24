@@ -1,0 +1,4 @@
+/Users/simhamin/CLionProjects/extra/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/simhamin/CLionProjects/extra/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/simhamin/CLionProjects/extra/cmake-build-debug/CMakeFiles/main.dir
+/Users/simhamin/CLionProjects/extra/cmake-build-debug/CMakeFiles/extra.dir
