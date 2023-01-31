@@ -1,4 +1,12 @@
 /Users/simhamin/CLionProjects/extra/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/simhamin/CLionProjects/extra/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/simhamin/CLionProjects/extra/cmake-build-debug/CMakeFiles/main.dir
+/Users/simhamin/CLionProjects/extra/cmake-build-debug/CMakeFiles/1018.dir
+/Users/simhamin/CLionProjects/extra/cmake-build-debug/CMakeFiles/10845.dir
+/Users/simhamin/CLionProjects/extra/cmake-build-debug/CMakeFiles/11866.dir
+/Users/simhamin/CLionProjects/extra/cmake-build-debug/CMakeFiles/11650.dir
+/Users/simhamin/CLionProjects/extra/cmake-build-debug/CMakeFiles/10826.dir
+/Users/simhamin/CLionProjects/extra/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/simhamin/CLionProjects/extra/cmake-build-debug/CMakeFiles/StackNQueue.dir
+/Users/simhamin/CLionProjects/extra/cmake-build-debug/CMakeFiles/10866.dir
+/Users/simhamin/CLionProjects/extra/cmake-build-debug/CMakeFiles/1181.dir
 /Users/simhamin/CLionProjects/extra/cmake-build-debug/CMakeFiles/extra.dir

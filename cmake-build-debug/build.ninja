@@ -52,17 +52,6 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
-
-#############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/simhamin/CLionProjects/extra/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
-
 # =============================================================================
 # Object build statements for EXECUTABLE target main
 
@@ -95,6 +84,265 @@ build main: C_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.c.o
   TARGET_PDB = main.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 1018
+
+
+#############################################
+# Order-only phony target for 1018
+
+build cmake_object_order_depends_target_1018: phony || CMakeFiles/1018.dir
+
+build CMakeFiles/1018.dir/1018.c.o: C_COMPILER__1018_Debug /Users/simhamin/CLionProjects/extra/1018.c || cmake_object_order_depends_target_1018
+  DEP_FILE = CMakeFiles/1018.dir/1018.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -std=gnu99
+  OBJECT_DIR = CMakeFiles/1018.dir
+  OBJECT_FILE_DIR = CMakeFiles/1018.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1018
+
+
+#############################################
+# Link the executable 1018
+
+build 1018: C_EXECUTABLE_LINKER__1018_Debug CMakeFiles/1018.dir/1018.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/1018.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1018
+  TARGET_PDB = 1018.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10845
+
+
+#############################################
+# Order-only phony target for 10845
+
+build cmake_object_order_depends_target_10845: phony || CMakeFiles/10845.dir
+
+build CMakeFiles/10845.dir/10845.c.o: C_COMPILER__10845_Debug /Users/simhamin/CLionProjects/extra/10845.c || cmake_object_order_depends_target_10845
+  DEP_FILE = CMakeFiles/10845.dir/10845.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -std=gnu99
+  OBJECT_DIR = CMakeFiles/10845.dir
+  OBJECT_FILE_DIR = CMakeFiles/10845.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10845
+
+
+#############################################
+# Link the executable 10845
+
+build 10845: C_EXECUTABLE_LINKER__10845_Debug CMakeFiles/10845.dir/10845.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/10845.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10845
+  TARGET_PDB = 10845.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11866
+
+
+#############################################
+# Order-only phony target for 11866
+
+build cmake_object_order_depends_target_11866: phony || CMakeFiles/11866.dir
+
+build CMakeFiles/11866.dir/11866.c.o: C_COMPILER__11866_Debug /Users/simhamin/CLionProjects/extra/11866.c || cmake_object_order_depends_target_11866
+  DEP_FILE = CMakeFiles/11866.dir/11866.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -std=gnu99
+  OBJECT_DIR = CMakeFiles/11866.dir
+  OBJECT_FILE_DIR = CMakeFiles/11866.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11866
+
+
+#############################################
+# Link the executable 11866
+
+build 11866: C_EXECUTABLE_LINKER__11866_Debug CMakeFiles/11866.dir/11866.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/11866.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11866
+  TARGET_PDB = 11866.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11650
+
+
+#############################################
+# Order-only phony target for 11650
+
+build cmake_object_order_depends_target_11650: phony || CMakeFiles/11650.dir
+
+build CMakeFiles/11650.dir/11650.c.o: C_COMPILER__11650_Debug /Users/simhamin/CLionProjects/extra/11650.c || cmake_object_order_depends_target_11650
+  DEP_FILE = CMakeFiles/11650.dir/11650.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -std=gnu99
+  OBJECT_DIR = CMakeFiles/11650.dir
+  OBJECT_FILE_DIR = CMakeFiles/11650.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11650
+
+
+#############################################
+# Link the executable 11650
+
+build 11650: C_EXECUTABLE_LINKER__11650_Debug CMakeFiles/11650.dir/11650.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/11650.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11650
+  TARGET_PDB = 11650.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10826
+
+
+#############################################
+# Order-only phony target for 10826
+
+build cmake_object_order_depends_target_10826: phony || CMakeFiles/10826.dir
+
+build CMakeFiles/10826.dir/10826.c.o: C_COMPILER__10826_Debug /Users/simhamin/CLionProjects/extra/10826.c || cmake_object_order_depends_target_10826
+  DEP_FILE = CMakeFiles/10826.dir/10826.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -std=gnu99
+  OBJECT_DIR = CMakeFiles/10826.dir
+  OBJECT_FILE_DIR = CMakeFiles/10826.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10826
+
+
+#############################################
+# Link the executable 10826
+
+build 10826: C_EXECUTABLE_LINKER__10826_Debug CMakeFiles/10826.dir/10826.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/10826.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10826
+  TARGET_PDB = 10826.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/simhamin/CLionProjects/extra/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target StackNQueue
+
+
+#############################################
+# Order-only phony target for StackNQueue
+
+build cmake_object_order_depends_target_StackNQueue: phony || CMakeFiles/StackNQueue.dir
+
+build CMakeFiles/StackNQueue.dir/StackNQueue.c.o: C_COMPILER__StackNQueue_Debug /Users/simhamin/CLionProjects/extra/StackNQueue.c || cmake_object_order_depends_target_StackNQueue
+  DEP_FILE = CMakeFiles/StackNQueue.dir/StackNQueue.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -std=gnu99
+  OBJECT_DIR = CMakeFiles/StackNQueue.dir
+  OBJECT_FILE_DIR = CMakeFiles/StackNQueue.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target StackNQueue
+
+
+#############################################
+# Link the executable StackNQueue
+
+build StackNQueue: C_EXECUTABLE_LINKER__StackNQueue_Debug CMakeFiles/StackNQueue.dir/StackNQueue.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/StackNQueue.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = StackNQueue
+  TARGET_PDB = StackNQueue.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10866
+
+
+#############################################
+# Order-only phony target for 10866
+
+build cmake_object_order_depends_target_10866: phony || CMakeFiles/10866.dir
+
+build CMakeFiles/10866.dir/10866.c.o: C_COMPILER__10866_Debug /Users/simhamin/CLionProjects/extra/10866.c || cmake_object_order_depends_target_10866
+  DEP_FILE = CMakeFiles/10866.dir/10866.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -std=gnu99
+  OBJECT_DIR = CMakeFiles/10866.dir
+  OBJECT_FILE_DIR = CMakeFiles/10866.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10866
+
+
+#############################################
+# Link the executable 10866
+
+build 10866: C_EXECUTABLE_LINKER__10866_Debug CMakeFiles/10866.dir/10866.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/10866.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10866
+  TARGET_PDB = 10866.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1181
+
+
+#############################################
+# Order-only phony target for 1181
+
+build cmake_object_order_depends_target_1181: phony || CMakeFiles/1181.dir
+
+build CMakeFiles/1181.dir/1181.c.o: C_COMPILER__1181_Debug /Users/simhamin/CLionProjects/extra/1181.c || cmake_object_order_depends_target_1181
+  DEP_FILE = CMakeFiles/1181.dir/1181.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -std=gnu99
+  OBJECT_DIR = CMakeFiles/1181.dir
+  OBJECT_FILE_DIR = CMakeFiles/1181.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1181
+
+
+#############################################
+# Link the executable 1181
+
+build 1181: C_EXECUTABLE_LINKER__1181_Debug CMakeFiles/1181.dir/1181.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/1181.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1181
+  TARGET_PDB = 1181.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target extra
 
 
@@ -109,6 +357,12 @@ build CMakeFiles/extra.dir/main.c.o: C_COMPILER__extra_Debug /Users/simhamin/CLi
   OBJECT_DIR = CMakeFiles/extra.dir
   OBJECT_FILE_DIR = CMakeFiles/extra.dir
 
+build CMakeFiles/extra.dir/1018.c.o: C_COMPILER__extra_Debug /Users/simhamin/CLionProjects/extra/1018.c || cmake_object_order_depends_target_extra
+  DEP_FILE = CMakeFiles/extra.dir/1018.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -std=gnu99
+  OBJECT_DIR = CMakeFiles/extra.dir
+  OBJECT_FILE_DIR = CMakeFiles/extra.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target extra
@@ -117,7 +371,7 @@ build CMakeFiles/extra.dir/main.c.o: C_COMPILER__extra_Debug /Users/simhamin/CLi
 #############################################
 # Link the executable extra
 
-build extra: C_EXECUTABLE_LINKER__extra_Debug CMakeFiles/extra.dir/main.c.o
+build extra: C_EXECUTABLE_LINKER__extra_Debug CMakeFiles/extra.dir/main.c.o CMakeFiles/extra.dir/1018.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/extra.dir
   POST_BUILD = :
@@ -136,7 +390,7 @@ build extra: C_EXECUTABLE_LINKER__extra_Debug CMakeFiles/extra.dir/main.c.o
 #############################################
 # Folder: /Users/simhamin/CLionProjects/extra/cmake-build-debug
 
-build all: phony main extra
+build all: phony main 1018 10845 11866 11650 10826 StackNQueue 10866 1181 extra
 
 # =============================================================================
 # Built-in targets
